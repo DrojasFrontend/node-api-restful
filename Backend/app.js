@@ -11,7 +11,7 @@ var app = express();
 var article_routes = require('./routes/article');
 
 // Middlewares
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // CORS

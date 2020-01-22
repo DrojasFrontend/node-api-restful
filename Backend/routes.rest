@@ -27,3 +27,12 @@ Content-Type: application/json
 ### Delete article
 DELETE http://localhost:3000/api/article/5e27c7c88801ba16d019313a
 
+
+### Upload images
+POST http://localhost:3000/api/upload-image/5e27c7f48801ba16d0193140
+
+### Get images
+GET http://localhost:3000/api/get-image/9b_1pGKJbHzKdX14_I4BAhIM.png
+
+### Search articles
+GET http://localhost:3000/api/search/1
