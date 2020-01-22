@@ -19,5 +19,6 @@ app.use(bodyParser.json());
 // Añadir prefijos a rutas
 app.use('/api', article_routes);
 
+
 // Exportar modulos (ficheros actual)
 module.exports = app;
