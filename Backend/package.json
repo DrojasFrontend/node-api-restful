@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node Api RESTful",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrojasFrontend/node-api-restful.git"
+  },
+  "author": "Daniel  Rojas Astood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrojasFrontend/node-api-restful/issues"
+  },
+  "homepage": "https://github.com/DrojasFrontend/node-api-restful#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "dotenv-extended": "^2.7.1",
+    "nodemon": "^2.0.2"
+  }
+}
