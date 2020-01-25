@@ -35,4 +35,4 @@ POST http://localhost:3000/api/upload-image/5e27c7f48801ba16d0193140
 GET http://localhost:3000/api/get-image/9b_1pGKJbHzKdX14_I4BAhIM.png
 
 ### Search articles
-GET http://localhost:3000/api/search/
+GET http://localhost:3000/api/search/1
